@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Account, credits, or billing · 账号、积分、账单
-    url: mailto:support@beatra.ai
-    about: These involve personal details, so please email us instead of opening a public issue. 涉及个人信息，请发邮件。
+    url: https://github.com/beatra-ai/.github/blob/main/SUPPORT.md
+    about: These involve personal details, so email support@beatra.ai instead of opening a public issue. 涉及个人信息，请发邮件到 support@beatra.ai。
   - name: Security vulnerability · 安全漏洞
     url: https://github.com/beatra-ai/beatra-skills/security/advisories/new
     about: Report privately. Never post vulnerabilities in public issues. 请私密报告。
