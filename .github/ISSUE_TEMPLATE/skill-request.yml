@@ -1,0 +1,36 @@
+name: Skill request · 新 Skill 需求
+description: Suggest a creative task you want your agent to handle. 提一个希望 Agent 能完成的创作任务。
+title: "[request] "
+labels: ["skill-request"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: The job to be done · 使用场景
+      description: Who needs this, what they start with, and what they need to end up with. 谁在用、手上有什么素材、最后要交付什么。
+      placeholder: I run a Shopify store. I have one product photo and need five listing images in the marketplace size.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How you do it today · 现在怎么做
+      description: Tools, manual steps, or existing skills you tried, and where they fall short. 现在用的工具或 Skill，以及不够好的地方。
+  - type: dropdown
+    id: media
+    attributes:
+      label: Output type · 产出类型
+      multiple: true
+      options:
+        - Image · 图片
+        - Video · 视频
+        - Music · 音乐
+        - Voice · 语音
+        - Other · 其他
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example output · 参考示例
+      description: Links or descriptions of results that would count as good. 能代表「做对了」的链接或描述。
