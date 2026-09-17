@@ -3,9 +3,6 @@ contact_links:
   - name: Account, credits, or billing · 账号、积分、账单
     url: https://github.com/beatra-ai/.github/blob/main/SUPPORT.md
     about: These involve personal details, so email support@beatra.ai instead of opening a public issue. 涉及个人信息，请发邮件到 support@beatra.ai。
-  - name: Security vulnerability · 安全漏洞
-    url: https://github.com/beatra-ai/beatra-skills/security/advisories/new
-    about: Report privately. Never post vulnerabilities in public issues. 请私密报告。
   - name: Documentation · 文档
     url: https://docs.beatra.ai
     about: Setup guides, models, credits, and API reference. 安装、模型、积分和 API 说明。
