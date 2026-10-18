@@ -28,7 +28,10 @@ body:
       label: Agent · 使用的 Agent
       options:
         - Claude Code
+        - Cursor
         - Codex
+        - Windsurf
+        - Cline
         - OpenClaw
         - Other · 其他
     validations:
